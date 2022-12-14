@@ -1,0 +1,155 @@
+* {
+    border: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    background-image: url(images/tsouxtres.png);
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-size: 18px;
+    color: #faf6f4;
+    --firstColor: #faf6f4;
+    --secondColor: rebeccapurple;
+    
+}
+
+
+
+h3 {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+div#wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    border: solid thin rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+      
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(104, 92, 92);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header div#logo {
+    height: 100%;
+}
+header div#logo img {
+    height: 100%;
+}
+ 
+header a{
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+}
+header nav a:hover {
+    color: #989C94;
+    
+}
+
+main {
+    width: 100%;
+    background-color: rgb(67, 169, 236);
+    flex-grow: 1;
+}
+
+
+footer {
+    width: 100%;
+    background-color: rgb(73, 51, 51);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer div {
+    
+    width: 32%;
+}
+
+
+
+footer div:nth-child(1) {
+    width: 35%;
+}
+footer div:nth-child(2) {
+    width: 35%;
+}
+footer div:nth-child(2) a{
+    color: white;
+    width: 35%;
+    transition: all 0.5sec;
+}
+footer div:nth-child(2) a:hover{
+    margin-left: 10px;
+    color: red;
+}
+footer div:nth-child(3) {
+    width: 33%;
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+
+footer div p {
+    line-height: 160%;
+}
+
+main img {
+    width: 40px;
+
+}
+
+main img:hover {
+   background-color: rgb(224, 15, 15);
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+main {
+background-color: blue;
+
+}
+header nav {
+display: flex;
+}
+footer {
+flex-direction: column;
+
+}
+footer div:nth-child(1) {
+    width: 100%;
+}
+footer div:nth-child(2) {
+    width: 100%;
+}
+footer div:nth-child(3) {
+    width: 100%;
+}
+footer div {
+margin-bottom: 1rem;
+}
+
+}
