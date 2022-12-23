@@ -19,9 +19,11 @@ body {
 
 
 h3 {
+    display: flex;
+    align-items: center;
     font-size: 1.5rem;
     color: rgb(0, 0, 0);
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -30,10 +32,10 @@ div#wrapper {
     width: 800px;
     max-width: 100%;
     margin: auto;
-    border: solid thin rebeccapurple;
+    border: solid thin rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
       
 }
 
@@ -68,9 +70,12 @@ main {
     width: 100%;
     background-color: rgb(67, 169, 236);
     flex-grow: 1;
-   
+}
+.home-article{
+    color: aqua;
     
 }
+
 main.contact {
     display: flex;
     align-items: center;
@@ -80,7 +85,7 @@ main.contact {
 
 footer {
     width: 100%;
-    background-color: rgb(73, 51, 51);
+    background-color: rgb(114, 110, 110);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -89,40 +94,30 @@ footer {
 
 footer div {
     
-    width: 32%;
+    width: 30%;
 }
 
 
-
-footer div:nth-child(1) {
-    width: 35%;
-}
-footer div:nth-child(2) {
-    width: 35%;
-}
 footer div:nth-child(2) a{
     color: white;
-    width: 35%;
+
     transition: all 0.5sec;
 }
 footer div:nth-child(2) a:hover{
     margin-left: 10px;
-    color: red;
+    color: rgb(67, 169, 236);
 }
-footer div:nth-child(3) {
-    width: 33%;
-}
+
 
 
 ul {
     list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
-
-footer div p {
-    line-height: 160%;
-}
 
 main img {
     width: 40px;
@@ -162,14 +157,11 @@ margin-bottom: 1rem;
     width: 100%;
     justify-content: space-between;
     display: flex;
-    
-    
-    
-    
+     
 }
 
 .box {
-    width: 800px;
+    width: 1200px;
     height: 400px;
     margin: 20px;
     box-shadow: -1px 0 10px #000000;
@@ -184,7 +176,29 @@ margin-bottom: 1rem;
 }
 #salam {
     padding: 10px;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 100%;
     border-radius: 100%;
+}
+.title h1 {
+    text-align: center;
+    background-image: url(images/nft-pic.jpg);
+}
+
+.bling {
+    background-image: url(images/bffe-logo.jpg);
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;    
+    height: 600px;          
+}
+.home-link{
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.collecti {
+    
+    align-items: flex-end; 
 }
