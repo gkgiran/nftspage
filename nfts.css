@@ -58,23 +58,5 @@ section.row div.kiv:hover {
     }
 }
 
-.button {
-    font-size: 14px;
-    color: rgb(2, 2, 2);
-    background-color: rgb(16, 17, 17);
-    border-radius: 7px;
-    
-}
-
-.button a {
-    color: rgb(255, 255, 255);
-    padding: 10px 15px;
-    font-size: 15px;
-}
-
-.button:hover {
-    background-color: rgb(101, 197, 197);
-    
-}
 
 

@@ -35,18 +35,18 @@ div#wrapper {
     border: solid thin rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
       
 }
 
 header {
     width: 100%;
     height: 90px;
-    background-color: rgb(104, 92, 92);
     padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url(images/nft-pic.jpg);
     
 }
 
@@ -71,8 +71,9 @@ main {
     background-color: rgb(67, 169, 236);
     flex-grow: 1;
 }
-.home-article{
-    color: aqua;
+.home-article {
+    color: rgb(0, 0, 0);
+    padding: 40px;
     
 }
 
@@ -182,7 +183,7 @@ margin-bottom: 1rem;
 }
 .title h1 {
     text-align: center;
-    background-image: url(images/nft-pic.jpg);
+    background-color: #000000;
 }
 
 .bling {
@@ -190,15 +191,41 @@ margin-bottom: 1rem;
     background-size: cover;                      
     background-repeat: no-repeat;
     background-position: center center;    
-    height: 600px;          
+    height: 400px;          
 }
-.home-link{
+.home-link h2{
     color: black;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .collecti {
+    color: black;
+    text-align: center;
+    padding-top: 280px;
+
+}
+
+.button {
+    font-size: 14px;
+    color: rgb(2, 2, 2);
+    background-color: rgb(16, 17, 17);
+    border-radius: 7px;
     
-    align-items: flex-end; 
+}
+
+.button a {
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color: rgb(101, 197, 197);
+    
+}
+
+.about {
+    text-align: center;
+    justify-content: space-between;
 }
